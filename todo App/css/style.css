@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:#333;
+    font-family: 'Franklin Gothic Medium';
+}
+
+main {
+    max-width:400px;
+    margin:auto;
+    background:#fff;
+    border:2px solid #ccc;
+    border-radius: 2px;
+    padding:5px;
+}
+
+#addItem {
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+}
+
+#item {
+    margin-right:5px;
+    border:2px solid #333;
+    border-radius:5px;
+    font-size:1.2rem;
+}
+
+.fa-plus-circle {
+    color:blue;
+}
+
+.fa-trash-alt {
+    color:red;
+}
+
+#listSection {
+    padding:10px;
+}
+
+ul {
+    list-style-type:none;
+}
+
+ul li {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-items:center;
+    justify-content:center;
+    align-items:baseline;
+}
