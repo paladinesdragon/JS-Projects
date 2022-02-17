@@ -7,5 +7,52 @@
 html {
     font-family: 'Trebuchet MS';
     max-width: fit-content;
+    color:#fff;
+}
+
+body {
+    border:solid 5px #868686;
+    border-radius: 10px;
+    padding:10px;
+}
+
+header {
+    display:flex;
+    margin-bottom:10px;
+}
+
+.btn {
+    cursor:pointer;
+}
+
+.ctn {
+    text-align:center;
+}
+
+.btn:hover {
+    color:#868686;
+}
+
+.padding1 {
+    padding:5px 10px;
+}
+
+.margin1 {
+    margin-right:10px;
+}
+
+.border {
+    background:#000;
+    border:solid 3px #5B89FE;
+    border-radius: 5px;
+}
+
+.timer {
+    margin:20px;
+}
+
+.time-btn {
+    display:flex;
+    justify-content:space-around;
 }
 
